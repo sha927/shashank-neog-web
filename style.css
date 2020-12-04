@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+:root{--primary-color:red;
+--drakgrey:rgb(194, 183, 183);
+--lightgrey:	#DCDCDC;}
+*{padding:0px;
+margin:0px;}
+
+body{
+    font-family: 'Noto Sans SC', sans-serif;
+    
+}
+
+hr{
+    margin: 1rem 0rem;
+} 
+    
+
+
+.container{margin:0rem 1rem;}
+
+.container-center{max-width: 600px;
+    margin:auto;}
+
+.link{text-decoration:none;
+padding:0.5rem 1rem;
+
+} 
+.link-col{color: white;}
+.primary-link{background-color:var(--primary-color);   
+border-radius:0.5rem;
+color:white;}
+
+.secondary-link{
+    border: 1px solid  var(--primary-color);)
+}
+
+.no-bullets{list-style:none;}
+
+.list-item-inline{
+
+    display: inline;
+    padding: 0rem 1rem;
+    
+}
+
+
+.navigator{background-color:var(--primary-color);
+
+    color:white;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+
+.navigator .nav-list{text-align: right;
+}
+.nav-brand{font-weight:bold;}
+
+.link-acive{font-weight:bold;}
+
+.hero{padding:1rem;}
+
+.hero .hero-img{
+    max-width: 350px;
+    display:block;
+margin:auto;}
+   
+.hero-heading{
+  color:var(--drakgrey);
+  margin-left: 35rem;
+  font-size:50px;
+}
+.section{
+    padding:2rem;
+    text-align: center;
+}
+.section.ow{
+    background-color: #DCDCDC;
+}
+
+.footer{
+    background-color:var(--primary-color);
+    padding:1rem 0.5rem;
+    border-top-right-radius: 1rem;
+    text-align:center;
+    color:white;
+
+}
+.footer .link{color:white;}
+
+
