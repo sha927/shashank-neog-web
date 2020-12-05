@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
-:root{--primary-color:red;
+:root{--primary-color:#8080ff;
 --drakgrey:rgb(194, 183, 183);
 --lightgrey:	#DCDCDC;}
-*{padding:0px;
-margin:0px;}
+
 
 body{
     font-family: 'Noto Sans SC', sans-serif;
     padding: 0px;
+    margin:0px;
     
 }
 
@@ -98,6 +98,6 @@ margin:auto;}
  border-radius:50%;
  height:200px;
  width:200px;
- margin-left:40rem
+ 
 }
 
