@@ -47,7 +47,7 @@ border-radius:0.5rem;
 
 
 .navigator{background-color:var(--primary-color);
-
+    margin: 0rem 0rem;
     color:white;
     padding:1rem;
     border-bottom-left-radius: 1rem;
@@ -71,8 +71,9 @@ margin:auto;}
    
 .hero-heading{
   color:var(--drakgrey);
-  margin-left: 35rem;
+  
   font-size:50px;
+
 }
 .section{
     padding:2rem;
