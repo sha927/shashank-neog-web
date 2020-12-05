@@ -8,6 +8,7 @@ margin:0px;}
 
 body{
     font-family: 'Noto Sans SC', sans-serif;
+    padding: 0px;
     
 }
 
@@ -29,7 +30,7 @@ padding:0.5rem 1rem;
 .link-col{color: white;}
 .primary-link{background-color:var(--primary-color);   
 border-radius:0.5rem;
-color:white;}
+}
 
 .secondary-link{
     border: 1px solid  var(--primary-color);)
@@ -58,7 +59,8 @@ color:white;}
 }
 .nav-brand{font-weight:bold;}
 
-.link-acive{font-weight:bold;}
+.link-acive{font-weight:bold;
+}
 
 .hero{padding:1rem;}
 
@@ -89,5 +91,13 @@ margin:auto;}
 
 }
 .footer .link{color:white;}
+.footer-heading{font-weight:bold;
+}
 
+.profile{
+ border-radius:50%;
+ height:200px;
+ width:200px;
+ margin-left:40rem
+}
 
