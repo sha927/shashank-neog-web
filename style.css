@@ -2,14 +2,15 @@
 
 :root{--primary-color:#8080ff;
 --drakgrey:rgb(194, 183, 183);
---lightgrey:	#DCDCDC;}
+--lightgrey:	#DCDCDC;
+}
+
 
 
 body{
     font-family: 'Noto Sans SC', sans-serif;
-    padding: 0px;
-    margin:0px;
-    
+  margin:0px;
+      
 }
 
 hr{
@@ -25,6 +26,8 @@ hr{
 
 .link{text-decoration:none;
 padding:0.5rem 1rem;
+
+
 
 } 
 .link-col{color: white;}
@@ -47,7 +50,7 @@ border-radius:0.5rem;
 
 
 .navigator{background-color:var(--primary-color);
-    margin: 0rem 0rem;
+    margin:0px;
     color:white;
     padding:1rem;
     border-bottom-left-radius: 1rem;
@@ -55,12 +58,11 @@ border-radius:0.5rem;
 
 
 
-.navigator .nav-list{text-align: right;
+.navigator .nav-list{text-align:right ;
 }
 .nav-brand{font-weight:bold;}
 
-.link-acive{font-weight:bold;
-}
+.link-active{font-weight: bold;}
 
 .hero{padding:1rem;}
 
@@ -101,4 +103,23 @@ margin:auto;}
  width:200px;
  
 }
+.photo-design{
+    display:block;
+    margin:auto;
+    max-width: 300px;
+    padding:1rem 0rem;
+}
+.blog-hero-heading{text-align: center;
+color:var(--primary-color)}
 
+.i-frame{margin: 2rem 0rem;}
+
+.hover-li:hover{color:black;}
+
+.insta-icon1{
+    border-radius: 50%;
+    margin-top:1rem;
+}
+.insta-icon2{
+    height: 150px;
+}
