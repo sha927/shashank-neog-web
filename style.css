@@ -123,3 +123,6 @@ color:var(--primary-color)}
 .insta-icon2{
     height: 150px;
 }
+
+.blog-link{background-color:rgb(14, 14, 32);
+color:white;}
