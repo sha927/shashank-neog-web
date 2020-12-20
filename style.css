@@ -6,22 +6,13 @@
 --lightgrey:	#DCDCDC;
 }
 
-html{
-    box-sizing: border-box;
-}
-
 
 
 
 body{
     font-family: 'Noto Sans SC', sans-serif;
   margin:0px;
-  
-  
-  
-
-  
-      
+     
 }
 
 hr{
@@ -139,3 +130,20 @@ color:var(--primary-color)}
 
 .blog-link{background-color:rgb(14, 14, 32);
 color:white;}
+
+.background-col{
+    background-color:black;
+}
+.col-change{color:white;
+    list-style-type: upper-roman;
+}
+
+.profile-2{
+    width: 50px;
+    
+    border-radius: 40%;
+
+}
+
+
+
