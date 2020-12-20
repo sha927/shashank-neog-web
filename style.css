@@ -145,5 +145,11 @@ color:white;}
 
 }
 
+.newhero-heading{
+    color:var(--drakgrey);
+    
+    font-size:25px;
+    width: auto;
+
 
 
