@@ -28,13 +28,14 @@ hr{
 
 .link{text-decoration:none;
 padding:0.5rem 1rem;
-
-
-
 } 
 .link-col{color: white;}
-.primary-link{background-color:var(--primary-color);   
-border-radius:0.5rem;
+
+.primary-link{background-color: black;   
+ border-radius:0.5rem; 
+ color:white;
+ transition-duration: 0.4s;
+ 
 }
 
 .secondary-link{
@@ -93,20 +94,18 @@ margin:auto;}
     padding:1rem 0.5rem;
     border-top-right-radius: 1rem;
     text-align:center;
-    color:white;
-
-
+        color:white;
 }
+
 .footer .link{color:white;}
-.footer-heading{font-weight:bold;
-}
-
+.footer-heading{font-weight:bold;}
+    
 .profile{
  border-radius:50%;
- height:200px;
+ height: 200px;
  width:200px;
- 
-}
+}  
+
 .photo-design{
     display:block;
     margin:auto;
@@ -119,13 +118,6 @@ color:var(--primary-color)}
 .i-frame{margin: 2rem 0rem;}
 
 .hover-li:hover{color:black;}
-
-.insta-icon1{
-    border-radius: 50%;
-    margin-top:1rem;
-}
-.insta-icon2{
-    height: 150px;
 }
 
 .blog-link{background-color:rgb(14, 14, 32);
@@ -138,22 +130,17 @@ color:white;}
     list-style-type: upper-roman;
 }
 
-.profile-2{
-    width: 50px;
-    
-    border-radius: 40%;
-
-}
-
 .newhero-heading{
     color:var(--drakgrey);
     
     font-size:25px;
     width: auto;
 }
+.blog-link:hover{background-color:rgb(44, 44, 165);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
-
-.blog-link:hover{background-color:rgb(70, 70, 189)}
+  
 
 
 
